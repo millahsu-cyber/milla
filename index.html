@@ -39,19 +39,6 @@
    <main>
     <img src="WhatsApp Image 2026-06-17 at 16.26.43.jpeg" alt="">
     <button>❤️<span>0</span></button>
-    <body><script>const botao = document.querySelector("button");</script></body>
-    const botao = document.querySelector("button");
-    botao.addEventListener("click", botaoClicado);
-    function botaoClicado() {
-
-}
-function botaoClicado() {
-console.log("fui clicado");
-}
-function botaoClicado() {
-let texto = botao.querySelector("span");
-texto.textContent++;
-}
  </main>
  <main>
     <h2> 1. O Carro de Doces da Vanellope</h2>
@@ -180,4 +167,14 @@ texto.textContent++;
         }
      </style>
  </main>
+ <html>
+ <script>
+    const botao = document.querySelector("button");
+botao.addEventListener("click", botaoCLicado);
+function botaoClicado() {
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+}
+ </script>
+ </html>
 
